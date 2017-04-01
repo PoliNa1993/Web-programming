@@ -1,0 +1,28 @@
+//*************************************************************
+//Student: Polina Anis'kina
+// ID: 26991092
+//Class: COMP-352-F
+//QUESTION 4
+//SEPTEMBER 30, 2016
+//*************************************************************
+
+Question 4
+a)First function is exponential, because we have f(n)=f(n-1)+f(n-2)+f(n-3), f(n-1)=f(n-2)+f(n-3)+f(n-4),
+f(n-2)=f(n-3)+f(n-4)+f(n-5), f(n-3)=f(n-4)+f(n-5)+f(n-6), and so on. We can see that every f contains 3 more f, therefore the 
+runtime is 3^n which is exponential.
+Second algorithm is linear it only makes one recursive call per sequence , hence resolves some specific bottleneck(s) of
+first algorithm.
+
+b) Yes, the second one. It is calling itself at the last step.
+
+Algorithm Oddonacci(n,a,b,c,i)
+Input of 3 last integers of the sequence a, b and c, iterator i and the number that I want n
+Output is c, the sum of three last integers of the sequence a+b+c
+if n<=3
+     return 1
+if i==n-2
+     return c
+else
+     return Oddonacci(n,b,c, a+b+c, i+1)
+     
+     

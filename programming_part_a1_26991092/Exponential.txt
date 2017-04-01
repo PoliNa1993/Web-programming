@@ -1,0 +1,12 @@
+Oddonacci 0: 1  And it takes 0 milliseconds
+Oddonacci 5: 5  And it takes 0 milliseconds
+Oddonacci 10: 105  And it takes 0 milliseconds
+Oddonacci 15: 2209  And it takes 0 milliseconds
+Oddonacci 20: 46499  And it takes 1 milliseconds
+Oddonacci 25: 978793  And it takes 5 milliseconds
+Oddonacci 30: 20603361  And it takes 72 milliseconds
+Oddonacci 35: 433695873  And it takes 1417 milliseconds
+Oddonacci 40: 9129195487  And it takes 32077 milliseconds
+Oddonacci 45: 192167404461  And it takes 703778 milliseconds
+
+Even after few hours i did not get the answer after n=45
